@@ -1,0 +1,9 @@
+{
+  "name": "FrameVR",
+  "rootNamespace": "FrameVR",
+  "references": [ 
+    "FrameCoreU",
+    "Foundry",
+    "Unity.InputSystem"
+  ]
+}
