@@ -12,15 +12,9 @@ namespace FrameVR.Player.Hands
 
         [Title("Pickup")]
         private PlayerHandSettings.PickupMode PickupMode =>
-            hand != null && hand.Settings != null
-                ? hand.Settings.pickupMode
+            hand != null
+                ? hand.PickupMode
                 : PlayerHandSettings.PickupMode.NearAndFar;
-        [SerializeField] private LayerMask pickupMask = ~0;
-        [SerializeField] private float rayDistance = 4f;
-        [SerializeField] private float overlapRadius = 0.25f;
-
-        [Title("Release")]
-        [SerializeField] private bool releaseOnGripEnd = true;
         
         [Title("Debug")]
         [SerializeField] private bool drawRayInGameView = true;
@@ -88,11 +82,11 @@ namespace FrameVR.Player.Hands
             if (rayOrigin == null)
                 return;
 
-            bool hit = Physics.Raycast(rayOrigin.position, rayOrigin.forward, out RaycastHit hitInfo, rayDistance, pickupMask);
+            bool hit = Physics.Raycast(rayOrigin.position, rayOrigin.forward, out RaycastHit hitInfo, hand.RayDistance, hand.PickupMask);
 
             Debug.DrawRay(
                 rayOrigin.position,
-                rayOrigin.forward * rayDistance,
+                rayOrigin.forward * hand.RayDistance,
                 hit ? rayHitColor : rayColor,
                 0f
             );
@@ -100,7 +94,7 @@ namespace FrameVR.Player.Hands
         
         private void DrawOverlapDebug()
         {
-            DrawWireSphere(transform.position, overlapRadius, Color.cyan);
+            DrawWireSphere(transform.position, hand.OverlapRadius, Color.cyan);
         }
         
         private MonoBehaviour FindFarTarget()
@@ -112,15 +106,15 @@ namespace FrameVR.Player.Hands
                 rayOrigin.position,
                 rayOrigin.forward,
                 out RaycastHit hit,
-                rayDistance,
-                pickupMask
+                hand.RayDistance,
+                hand.PickupMask
             );
 
             if (drawRayInGameView)
             {
                 Debug.DrawRay(
                     rayOrigin.position,
-                    rayOrigin.forward * rayDistance,
+                    rayOrigin.forward * hand.RayDistance,
                     hitSomething ? rayHitColor : rayColor,
                     0f
                 );
@@ -136,9 +130,9 @@ namespace FrameVR.Player.Hands
         {
             int count = Physics.OverlapSphereNonAlloc(
                 transform.position,
-                overlapRadius,
+                hand.OverlapRadius,
                 overlapResults,
-                pickupMask
+                hand.PickupMask
             );
 
             MonoBehaviour bestTarget = null;
@@ -188,11 +182,11 @@ namespace FrameVR.Player.Hands
         {
             if ((PickupMode == PlayerHandSettings.PickupMode.Far ||
                     PickupMode == PlayerHandSettings.PickupMode.NearAndFar) && rayOrigin != null)
-                Gizmos.DrawRay(rayOrigin.position, rayOrigin.forward * rayDistance);
+                Gizmos.DrawRay(rayOrigin.position, rayOrigin.forward * hand.RayDistance);
 
             if (PickupMode == PlayerHandSettings.PickupMode.Near ||
                 PickupMode == PlayerHandSettings.PickupMode.NearAndFar)
-                Gizmos.DrawWireSphere(transform.position, overlapRadius);
+                Gizmos.DrawWireSphere(transform.position, hand.OverlapRadius);
         }
         
         private void DrawWireSphere(Vector3 center, float radius, Color color)

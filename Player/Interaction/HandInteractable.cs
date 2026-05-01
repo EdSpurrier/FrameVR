@@ -9,6 +9,9 @@ namespace FrameVR.Player.Interaction
         [Title("Settings")]
         [SerializeField] private bool canBeHeld = true;
 
+        [Title("Throw")]
+        [SerializeField] private bool throwOnRelease = true;
+        
         [Title("Debug")]
         [SerializeField, ReadOnly] private bool isHeld;
         [SerializeField, ReadOnly] private PlayerHand heldBy;
@@ -91,8 +94,23 @@ namespace FrameVR.Player.Interaction
             if (rb != null)
             {
                 rb.isKinematic = false;
-                rb.linearVelocity = Vector3.zero;
-                rb.angularVelocity = Vector3.zero;
+
+                if (throwOnRelease && hand.ThrowEnabled)
+                {
+                    Vector3 releaseVelocity = hand.Velocity * hand.ThrowMultiplier;
+                    releaseVelocity = Vector3.ClampMagnitude(releaseVelocity, hand.MaxThrowSpeed);
+
+                    rb.linearVelocity = releaseVelocity;
+
+                    rb.angularVelocity = hand.ApplyAngularVelocity
+                        ? hand.AngularVelocity
+                        : Vector3.zero;
+                }
+                else
+                {
+                    rb.linearVelocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                }
             }
 
             isHeld = false;

@@ -70,7 +70,10 @@ namespace FrameVR.Player.Hands
                     else
                     {
                         onGripEnd.Activate();
-                        hand.HeldInteractable?.OnGripEnd(hand);    
+                        hand.HeldInteractable?.OnGripEnd(hand);
+
+                        if (hand.ReleaseOnGripEnd && hand.TryGetComponent(out PlayerHandPickup pickup))
+                            pickup.Release();
                     }
                 }
             }
@@ -80,7 +83,13 @@ namespace FrameVR.Player.Hands
                     onGripStart.Activate();
 
                 if (was && !now)
+                {
                     onGripEnd.Activate();
+                    hand.HeldInteractable?.OnGripEnd(hand);
+
+                    if (hand.ReleaseOnGripEnd && hand.TryGetComponent(out PlayerHandPickup pickup))
+                        pickup.Release();
+                }
             }
 
             lastGrip = hand.Grip;

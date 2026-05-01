@@ -16,19 +16,22 @@ namespace FrameVR.Player.DevFP_VR
         [SerializeField] private string jumpActionName = "Jump";
         [SerializeField] private string sprintActionName = "Sprint";
         [SerializeField] private string crouchActionName = "Crouch";
-
+        [SerializeField] private string throwHandActionName = "ThrowHand";
+        
         [Title("Debug")]
         [SerializeField, ReadOnly] private Vector2 moveInput;
         [SerializeField, ReadOnly] private Vector2 lookInput;
         [SerializeField, ReadOnly] private bool jumpPressed;
         [SerializeField, ReadOnly] private bool sprintHeld;
         [SerializeField, ReadOnly] private bool crouchHeld;
-
+        [SerializeField, ReadOnly] private bool throwHandPressed;
+        
         public Vector2 MoveInput => moveInput;
         public Vector2 LookInput => lookInput;
         public bool JumpPressed => jumpPressed;
         public bool SprintHeld => sprintHeld;
         public bool CrouchHeld => crouchHeld;
+        public bool ThrowHandPressed => throwHandPressed;
 
         private InputActionMap actionMap;
         private InputAction move;
@@ -36,6 +39,7 @@ namespace FrameVR.Player.DevFP_VR
         private InputAction jump;
         private InputAction sprint;
         private InputAction crouch;
+        private InputAction throwHand;
 
         private void Awake()
         {
@@ -60,6 +64,7 @@ namespace FrameVR.Player.DevFP_VR
             jumpPressed = jump != null && jump.WasPressedThisFrame();
             sprintHeld = sprint != null && sprint.IsPressed();
             crouchHeld = crouch != null && crouch.IsPressed();
+            throwHandPressed = throwHand != null && throwHand.WasPressedThisFrame();
         }
 
         private void BindActions()
@@ -83,12 +88,14 @@ namespace FrameVR.Player.DevFP_VR
             jump = actionMap.FindAction(jumpActionName);
             sprint = actionMap.FindAction(sprintActionName);
             crouch = actionMap.FindAction(crouchActionName);
-
+            throwHand = actionMap.FindAction(throwHandActionName);
+            
             ValidateAction(move, moveActionName);
             ValidateAction(look, lookActionName);
             ValidateAction(jump, jumpActionName);
             ValidateAction(sprint, sprintActionName);
             ValidateAction(crouch, crouchActionName);
+            ValidateAction(throwHand, throwHandActionName);
         }
 
         private void ValidateAction(InputAction action, string actionName)

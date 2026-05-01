@@ -13,6 +13,18 @@ MonoBehaviour:
   m_Name: DevFP-VR - PlayerHand Settings
   m_EditorClassIdentifier: Game::Game.Player.Hands.PlayerHandSettings
   gripMode: 1
+  pickupMode: 2
+  pickupMask:
+    serializedVersion: 2
+    m_Bits: 32768
+  rayDistance: 8
+  overlapRadius: 0.25
+  releaseOnGripEnd: 1
   holdAttachMode: 1
-  pullToHandSpeed: 12
+  pullToHandSpeed: 8
   pullSnapDistance: 0.03
+  enableThrow: 1
+  velocitySampleFrames: 6
+  throwMultiplier: 1.2
+  maxThrowSpeed: 10
+  applyAngularVelocity: 1
