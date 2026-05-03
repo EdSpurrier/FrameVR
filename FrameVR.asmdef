@@ -4,6 +4,7 @@
   "references": [ 
     "FrameCoreU",
     "Foundry",
-    "Unity.InputSystem"
+    "Unity.InputSystem",
+    "HighlightPlus.Runtime"
   ]
 }

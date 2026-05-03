@@ -1,4 +1,5 @@
 using FrameVR.Player.Hands;
+using HighlightPlus;
 
 namespace FrameVR.Player.Interaction
 {
@@ -6,6 +7,16 @@ namespace FrameVR.Player.Interaction
     {
         bool CanBeHeld { get; }
 
+        HighlightEffect HighlightEffect { get; }
+
+        void OnHoverStart(PlayerHand hand)
+        {
+            if (HighlightEffect && CanBeHeld) HighlightEffect.highlighted = true;
+        }
+        void OnHoverEnd(PlayerHand hand){
+            if (HighlightEffect && CanBeHeld) HighlightEffect.highlighted = false;
+        }
+        
         void OnHeld(PlayerHand hand);
         void OnReleased(PlayerHand hand);
 

@@ -35,6 +35,17 @@ namespace FrameVR.Player.Hands
 
         public void TryPickup()
         {
+            GetCurrentTarget();
+
+            if (currentTarget != null)
+                if (hand.TryHold(currentTarget))
+                {
+                    (currentTarget as IHandInteractable).OnHoverEnd(hand);
+                }
+        }
+
+        public void GetCurrentTarget()
+        {
             if (hand == null)
                 return;
 
@@ -49,10 +60,16 @@ namespace FrameVR.Player.Hands
                 _ => null
             };
 
+            if (currentTarget && currentTarget != target)
+            {
+                (currentTarget as IHandInteractable).OnHoverEnd(hand);
+            }
+            if (target && currentTarget != target)
+            {
+                (target as IHandInteractable).OnHoverStart(hand);
+            }
+            
             currentTarget = target;
-
-            if (target != null)
-                hand.TryHold(target);
         }
 
         public void Release()
@@ -75,6 +92,8 @@ namespace FrameVR.Player.Hands
             if (PickupMode == PlayerHandSettings.PickupMode.Near ||
                 PickupMode == PlayerHandSettings.PickupMode.NearAndFar)
                 DrawOverlapDebug();
+
+            GetCurrentTarget();
         }
         
         private void DrawRayDebug()

@@ -8,7 +8,7 @@ namespace FrameVR.Player.Hands
     {
         [Title("Reference")]
         [SerializeField] private PlayerHand hand;
-
+        
         [Title("Grip")]
         public FrameCoreEvent onGripStart = new FrameCoreEvent { eventName = "Grip Start" };
         public FrameCoreEvent onGripEnd = new FrameCoreEvent { eventName = "Grip End" };

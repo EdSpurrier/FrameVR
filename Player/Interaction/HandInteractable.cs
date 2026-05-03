@@ -1,4 +1,5 @@
 using FrameVR.Player.Hands;
+using HighlightPlus;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -8,9 +9,14 @@ namespace FrameVR.Player.Interaction
     {
         [Title("Settings")]
         [SerializeField] private bool canBeHeld = true;
-
+        [SerializeField] private HighlightEffect highlightEffect;
+        
         [Title("Throw")]
         [SerializeField] private bool throwOnRelease = true;
+
+        [Title("Physics")]
+        [SerializeField] private CollisionDetectionMode collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        [SerializeField] private RigidbodyInterpolation interpolation  = RigidbodyInterpolation.Interpolate;
         
         [Title("Debug")]
         [SerializeField, ReadOnly] private bool isHeld;
@@ -19,6 +25,7 @@ namespace FrameVR.Player.Interaction
         private Rigidbody rb;
         private bool pullingToHand;
         
+        public HighlightEffect HighlightEffect => highlightEffect;
         public bool CanBeHeld => canBeHeld;
         public bool IsHeld => isHeld;
         public PlayerHand HeldBy => heldBy;
@@ -26,6 +33,15 @@ namespace FrameVR.Player.Interaction
         private void Awake()
         {
             rb = GetComponent<Rigidbody>();
+            
+            if (!rb)
+            {
+                UnityEngine.Debug.LogError("HandInteractable [ERROR] >> Rigidbody is null.");
+                return;
+            }
+
+            rb.interpolation = interpolation;
+            rb.collisionDetectionMode = collisionDetectionMode;
         }
 
         public virtual void OnHeld(PlayerHand hand)
@@ -41,6 +57,7 @@ namespace FrameVR.Player.Interaction
                 rb.linearVelocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
                 rb.isKinematic = true;
+                rb.interpolation = RigidbodyInterpolation.None;
             }
 
             if (hand.HoldMode == PlayerHandSettings.HoldAttachMode.PullToHand)
@@ -72,7 +89,7 @@ namespace FrameVR.Player.Interaction
             if (Vector3.Distance(transform.position, heldBy.transform.position) <= heldBy.PullSnapDistance)
                 CompleteHold();
         }
-
+        
         private void CompleteHold()
         {
             pullingToHand = false;
@@ -94,6 +111,7 @@ namespace FrameVR.Player.Interaction
             if (rb != null)
             {
                 rb.isKinematic = false;
+                rb.interpolation = interpolation;
 
                 if (throwOnRelease && hand.ThrowEnabled)
                 {
