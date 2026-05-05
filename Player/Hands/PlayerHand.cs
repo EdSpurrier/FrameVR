@@ -82,6 +82,8 @@ namespace FrameVR.Player.Hands
         public bool ReleaseOnGripEnd =>
             settings == null || settings.releaseOnGripEnd;
         
+        public float FarPickupCapsuleRadius =>
+            settings != null ? settings.farPickupCapsuleRadius : 0.08f;
         
         [Title("Debug")]
         [ShowInInspector, ReadOnly] public float Grip { get; private set; }

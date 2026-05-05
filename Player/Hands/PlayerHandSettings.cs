@@ -27,13 +27,19 @@ namespace FrameVR.Player.Hands
         
         [Title("Grip")]
         public GripMode gripMode = GripMode.Hold;
-
-        [Title("Pickup")]
+        
+        
+        [BoxGroup("Pickup")]
         public PickupMode pickupMode = PickupMode.NearAndFar;
         public LayerMask pickupMask = ~0;
-        public float rayDistance = 4f;
-        public float overlapRadius = 0.25f;
         public bool releaseOnGripEnd = true;
+        
+        [BoxGroup("Pickup/Near")]
+        public float overlapRadius = 0.25f;
+
+        [BoxGroup("Pickup/Far")]
+        public float rayDistance = 4f;
+        public float farPickupCapsuleRadius = 0.08f;
         
         
         [Title("Hold")]

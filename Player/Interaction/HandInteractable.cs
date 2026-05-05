@@ -1,3 +1,4 @@
+using FrameCoreU.Events;
 using FrameVR.Player.Hands;
 using HighlightPlus;
 using Sirenix.OdinInspector;
@@ -7,19 +8,57 @@ namespace FrameVR.Player.Interaction
 {
     public class HandInteractable : MonoBehaviour, IHandInteractable
     {
-        [Title("Settings")]
+        [FoldoutGroup("Settings")]
         [SerializeField] private bool canBeHeld = true;
+        [FoldoutGroup("Settings")]
         [SerializeField] private HighlightEffect highlightEffect;
         
-        [Title("Throw")]
+        [BoxGroup("Settings/Throw")]
         [SerializeField] private bool throwOnRelease = true;
 
-        [Title("Physics")]
+        [BoxGroup("Settings/Physics")]
         [SerializeField] private CollisionDetectionMode collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        [BoxGroup("Settings/Physics")]
         [SerializeField] private RigidbodyInterpolation interpolation  = RigidbodyInterpolation.Interpolate;
         
-        [Title("Debug")]
+        [FoldoutGroup("Events")]
+        [BoxGroup("Events/Grip")]
+        [FoldoutGroup("Events/Grip/Grip - Start")]
+        [HideLabel]
+        public FrameCoreEvent onGripStart = new FrameCoreEvent { eventName = "Grip Start" };
+        [FoldoutGroup("Events/Grip/Grip - End")]
+        [HideLabel]
+        public FrameCoreEvent onGripEnd = new FrameCoreEvent { eventName = "Grip End" };
+
+        [BoxGroup("Events/Trigger")]
+        [FoldoutGroup("Events/Trigger/Trigger - Pressed")]
+        [HideLabel]
+        public FrameCoreEvent onTriggerPressed = new FrameCoreEvent { eventName = "Trigger Pressed" };
+        [FoldoutGroup("Events/Trigger/Trigger - Released")]
+        [HideLabel]
+        public FrameCoreEvent onTriggerReleased = new FrameCoreEvent { eventName = "Trigger Released" };
+
+        [BoxGroup("Events/Primary")]
+        
+        [FoldoutGroup("Events/Primary/Primary - Pressed")]
+        [HideLabel]
+        public FrameCoreEvent onPrimaryPressed = new FrameCoreEvent { eventName = "Primary Pressed" };
+        [FoldoutGroup("Events/Primary/Primary - Released")]
+        [HideLabel]
+        public FrameCoreEvent onPrimaryReleased = new FrameCoreEvent { eventName = "Primary Released" };
+
+        [BoxGroup("Events/Secondary")]
+        
+        [FoldoutGroup("Events/Secondary/Secondary - Pressed")]
+        [HideLabel]
+        public FrameCoreEvent onSecondaryPressed = new FrameCoreEvent { eventName = "Secondary Pressed" };
+        [FoldoutGroup("Events/Secondary/Secondary - Released")]
+        [HideLabel]
+        public FrameCoreEvent onSecondaryReleased = new FrameCoreEvent { eventName = "Secondary Released" };
+        
+        [FoldoutGroup("Debug")]
         [SerializeField, ReadOnly] private bool isHeld;
+        [FoldoutGroup("Debug")]
         [SerializeField, ReadOnly] private PlayerHand heldBy;
 
         private Rigidbody rb;
@@ -135,13 +174,44 @@ namespace FrameVR.Player.Interaction
             heldBy = null;
         }
 
-        public virtual void OnGripStart(PlayerHand hand) { }
-        public virtual void OnGripEnd(PlayerHand hand) { }
-        public virtual void OnTriggerPressed(PlayerHand hand) { }
-        public virtual void OnTriggerReleased(PlayerHand hand) { }
-        public virtual void OnPrimaryPressed(PlayerHand hand) { }
-        public virtual void OnPrimaryReleased(PlayerHand hand) { }
-        public virtual void OnSecondaryPressed(PlayerHand hand) { }
-        public virtual void OnSecondaryReleased(PlayerHand hand) { }
+        public virtual void OnGripStart(PlayerHand hand)
+        {
+            onGripStart.Activate();
+        }
+
+        public virtual void OnGripEnd(PlayerHand hand)
+        {
+            onGripEnd.Activate();
+        }
+
+        public virtual void OnTriggerPressed(PlayerHand hand)
+        {
+            onTriggerPressed.Activate();
+        }
+
+        public virtual void OnTriggerReleased(PlayerHand hand)
+        {
+            onTriggerReleased.Activate();
+        }
+
+        public virtual void OnPrimaryPressed(PlayerHand hand)
+        {
+            onPrimaryPressed.Activate();
+        }
+
+        public virtual void OnPrimaryReleased(PlayerHand hand)
+        {
+            onPrimaryReleased.Activate();
+        }
+
+        public virtual void OnSecondaryPressed(PlayerHand hand)
+        {
+            onSecondaryPressed.Activate();
+        }
+
+        public virtual void OnSecondaryReleased(PlayerHand hand)
+        {
+            onSecondaryReleased.Activate();
+        }
     }
 }
