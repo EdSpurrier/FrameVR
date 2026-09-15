@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d97ede73fa2848cf96848a6a58666744, type: 3}
-  m_Name: DevFP-VR - PlayerHand Settings
+  m_Name: XR - PlayerHand Settings
   m_EditorClassIdentifier: Game::Game.Player.Hands.PlayerHandSettings
-  gripMode: 1
+  gripMode: 0
   pickupMode: 2
   pickupMask:
     serializedVersion: 2
     m_Bits: 32768
-  rayDistance: 8
+  rayDistance: 20
   overlapRadius: 0.25
   releaseOnGripEnd: 1
   holdAttachMode: 1

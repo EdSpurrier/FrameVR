@@ -122,6 +122,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "ThrowHand",
+                    "type": "Button",
+                    "id": "758921e6-1b80-4954-96d3-264d99284b8d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -281,6 +290,17 @@
                 },
                 {
                     "name": "",
+                    "id": "2f13c63f-7710-4d9a-9187-5fda0ea0914b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger - Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1452f35c-219a-45b3-83fb-f42290134947",
                     "path": "<Keyboard>/3",
                     "interactions": "",
@@ -336,12 +356,34 @@
                 },
                 {
                     "name": "",
+                    "id": "21bd6beb-0a11-48c5-b27c-b8933d6a8b64",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger - Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "b5820f27-164d-464d-9f44-169527d5656b",
                     "path": "<Keyboard>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Grip - Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdd99d40-95d4-4649-8d14-1a6276816ba0",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThrowHand",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

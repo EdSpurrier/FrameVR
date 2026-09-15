@@ -1,0 +1,4449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1278725026187910958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7755931185630627763}
+  m_Layer: 0
+  m_Name: Cube Stack Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7755931185630627763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278725026187910958}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15, y: 0.15, z: -0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1597323702222252344}
+  - {fileID: 8891853424229186813}
+  - {fileID: 7019144567604091071}
+  - {fileID: 8253539560053259504}
+  - {fileID: 3629967446435105523}
+  - {fileID: 8380634309363372685}
+  - {fileID: 7066503790948370345}
+  - {fileID: 4026819915781531427}
+  - {fileID: 2155679665757482479}
+  - {fileID: 1942060886170915164}
+  - {fileID: 5076373533539870505}
+  - {fileID: 1170486174826432731}
+  - {fileID: 230156626152393939}
+  - {fileID: 2360737016061050005}
+  - {fileID: 6308619281969211697}
+  - {fileID: 8001855637612850662}
+  m_Father: {fileID: 8680408163831686366}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1587891982829103184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3064280589167588143}
+  m_Layer: 0
+  m_Name: Cube Stack Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3064280589167588143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587891982829103184}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15, y: 0.05, z: -0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5294388013361637577}
+  - {fileID: 8408645064142223800}
+  - {fileID: 2544830497258642641}
+  - {fileID: 8780638760817182876}
+  - {fileID: 6895435648811235147}
+  - {fileID: 7521477884480254905}
+  - {fileID: 7654132127045005302}
+  - {fileID: 1046901133622850578}
+  - {fileID: 5636020585413156155}
+  - {fileID: 1401050444907264100}
+  - {fileID: 4405272550552789529}
+  - {fileID: 6775285069056724651}
+  - {fileID: 1361574908309809549}
+  - {fileID: 615575094236550317}
+  - {fileID: 8878019651979070263}
+  - {fileID: 390811230876440458}
+  m_Father: {fileID: 8680408163831686366}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1948859587776131598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6925866549095182402}
+  m_Layer: 0
+  m_Name: Cube Stack Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6925866549095182402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948859587776131598}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15, y: 0.25, z: -0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2230305766399757825}
+  - {fileID: 289833945528691843}
+  - {fileID: 4598667697214517010}
+  - {fileID: 7393490685403225335}
+  - {fileID: 4048545845076715742}
+  - {fileID: 7065239783331919164}
+  - {fileID: 4261327140002366238}
+  - {fileID: 8973125281661092887}
+  - {fileID: 6980804344576711593}
+  - {fileID: 2598832397194636970}
+  - {fileID: 315071784461737895}
+  - {fileID: 6290215813097223809}
+  - {fileID: 3015381979622744860}
+  - {fileID: 847684946529016120}
+  - {fileID: 8294305419640355361}
+  - {fileID: 4079207002982087250}
+  m_Father: {fileID: 8680408163831686366}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3191229979466325245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8680408163831686366}
+  m_Layer: 0
+  m_Name: Physics Cube Stack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8680408163831686366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3191229979466325245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.110223e-17, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3064280589167588143}
+  - {fileID: 7755931185630627763}
+  - {fileID: 6925866549095182402}
+  - {fileID: 3909045260416907218}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3874220983273112203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3909045260416907218}
+  m_Layer: 0
+  m_Name: Cube Stack Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3909045260416907218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3874220983273112203}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15, y: 0.35, z: -0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1783836115368797629}
+  - {fileID: 1978152864251534866}
+  - {fileID: 1870689943504655953}
+  - {fileID: 3592331843672292968}
+  - {fileID: 7147191951777956436}
+  - {fileID: 4424079783038889197}
+  - {fileID: 4752030003440144668}
+  - {fileID: 6934120097020995995}
+  - {fileID: 2490377610507717257}
+  - {fileID: 7083351237977016384}
+  - {fileID: 271344663614079091}
+  - {fileID: 1113249791865296551}
+  - {fileID: 2177127555250890207}
+  - {fileID: 4453573104787227612}
+  - {fileID: 868294895441112272}
+  - {fileID: 506727158438665660}
+  m_Father: {fileID: 8680408163831686366}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &37789291871290627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1978152864251534866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 37789291871290627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &73773603711797837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1942060886170915164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 73773603711797837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &145109361739599168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1870689943504655953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 145109361739599168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &231086400756186796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1783836115368797629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 231086400756186796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &362027271515297040
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2230305766399757825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 362027271515297040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &415240872106311374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2177127555250890207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 415240872106311374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &441086241709946622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2155679665757482479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 441086241709946622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &613625694445282165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1401050444907264100 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 613625694445282165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &653241366444978844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1361574908309809549 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 653241366444978844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &850028440792208330
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1170486174826432731 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 850028440792208330}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &999618609215697449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1597323702222252344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 999618609215697449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1168150093646381609
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &847684946529016120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1168150093646381609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1404974567795134396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &615575094236550317 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1404974567795134396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1479010729268317622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1113249791865296551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1479010729268317622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1545536960534425347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &1046901133622850578 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1545536960534425347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1727485869471987649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &868294895441112272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1727485869471987649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1743328656358726498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &271344663614079091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1743328656358726498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1784587219347642306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &230156626152393939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 1784587219347642306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2089053469589145261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &506727158438665660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2089053469589145261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2205072888416996507
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &390811230876440458 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2205072888416996507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2281867865457427638
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &315071784461737895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2281867865457427638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2301406297535903634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &289833945528691843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2301406297535903634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2366299455629400079
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4261327140002366238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2366299455629400079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2551798871020233027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4079207002982087250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2551798871020233027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2583619621793919951
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4048545845076715742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2583619621793919951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2604260645740737539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4598667697214517010 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2604260645740737539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2755019352171124941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4453573104787227612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2755019352171124941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2778988954327332860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4424079783038889197 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2778988954327332860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2798743828131313928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4405272550552789529 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2798743828131313928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2996497447784550882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &3629967446435105523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 2996497447784550882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3039657494357353849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &3592331843672292968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 3039657494357353849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3177199125260106802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4026819915781531427 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 3177199125260106802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3615624461868873741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &3015381979622744860 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 3615624461868873741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4081531744556255168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2544830497258642641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 4081531744556255168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4141648750962086296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2490377610507717257 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 4141648750962086296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4266750990620829572
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2360737016061050005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 4266750990620829572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4604199367769798075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &2598832397194636970 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 4604199367769798075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4919070530937187418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &6895435648811235147 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 4919070530937187418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5040420211317888442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &6775285069056724651 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 5040420211317888442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5510498748567613984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &6308619281969211697 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 5510498748567613984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5530098537613454736
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &6290215813097223809 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 5530098537613454736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5948410121811833816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &5294388013361637577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 5948410121811833816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6179682478491960874
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &5636020585413156155 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 6179682478491960874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6487176576715934221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &4752030003440144668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 6487176576715934221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6739470200761596984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &5076373533539870505 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 6739470200761596984}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6959111670717900780
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8891853424229186813 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 6959111670717900780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6971714543190364198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8878019651979070263 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 6971714543190364198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7074757866907227021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8780638760817182876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 7074757866907227021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7454441735797841670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8973125281661092887 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 7454441735797841670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7561196809770344752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8294305419640355361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 7561196809770344752}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7602067536908429281
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8253539560053259504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 7602067536908429281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8017547010819678889
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8408645064142223800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8017547010819678889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8050307642391857564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8380634309363372685 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8050307642391857564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8200349276686202087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7654132127045005302 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8200349276686202087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8328324408469481640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3064280589167588143}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7521477884480254905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8328324408469481640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8428983591696987895
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &8001855637612850662 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8428983591696987895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8708382316582312261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7147191951777956436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8708382316582312261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8770919490647921489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7083351237977016384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8770919490647921489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8783371017692306616
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7066503790948370345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8783371017692306616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8789135878843526701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7065239783331919164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8789135878843526701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8835090973408658350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7755931185630627763}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7019144567604091071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8835090973408658350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8869067837710303416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &6980804344576711593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8869067837710303416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8921489956220334730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3909045260416907218}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &6934120097020995995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 8921489956220334730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9038577386663266278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6925866549095182402}
+    m_Modifications:
+    - target: {fileID: 1462561496632215751, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_VersionIndex
+      value: 775
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950344677696922724, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_Name
+      value: Physics Cube (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+--- !u!4 &7393490685403225335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2014673249911118609, guid: 81f79aa2462496c47b16a6967056771d, type: 3}
+  m_PrefabInstance: {fileID: 9038577386663266278}
+  m_PrefabAsset: {fileID: 0}

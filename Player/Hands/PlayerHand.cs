@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using FrameVR.Player.Interaction;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -36,6 +37,60 @@ namespace FrameVR.Player.Hands
         public float PullSnapDistance =>
             settings != null ? settings.pullSnapDistance : 0.03f;
         
+        [Title("Velocity")]
+        [SerializeField, ReadOnly] private Vector3 velocity;
+        [SerializeField, ReadOnly] private Vector3 angularVelocity;
+
+        private Vector3 lastPosition;
+        private Quaternion lastRotation;
+
+        public Vector3 Velocity => velocity;
+        public Vector3 AngularVelocity => angularVelocity;
+
+        [Title("Throw")]
+        public bool ThrowEnabled => settings != null && settings.enableThrow;
+
+        public int VelocitySampleFrames =>
+            settings != null ? settings.velocitySampleFrames : 6;
+
+        public float ThrowMultiplier =>
+            settings != null ? settings.throwMultiplier : 1.2f;
+
+        public float MaxThrowSpeed =>
+            settings != null ? settings.maxThrowSpeed : 10f;
+
+        public bool ApplyAngularVelocity =>
+            settings != null && settings.applyAngularVelocity;
+        
+        private readonly Queue<Vector3> velocitySamples = new();
+        
+        [Title("Pickup")]
+        public PlayerHandSettings.PickupMode PickupMode =>
+            settings != null
+                ? settings.pickupMode
+                : PlayerHandSettings.PickupMode.NearAndFar;
+
+        public LayerMask PickupMask =>
+            settings != null ? settings.pickupMask : ~0;
+
+        public float RayDistance =>
+            settings != null ? settings.rayDistance : 4f;
+
+        public float OverlapRadius =>
+            settings != null ? settings.overlapRadius : 0.25f;
+
+        public bool ReleaseOnGripEnd =>
+            settings == null || settings.releaseOnGripEnd;
+        
+        public float FarPickupCapsuleRadius =>
+            settings != null ? settings.farPickupCapsuleRadius : 0.08f;
+        
+        [Title("Focused Object")]
+        [SerializeField, ReadOnly] private MonoBehaviour focusedInteractableBehaviour;
+
+        private IHandInteractable focusedInteractable;
+
+        public IHandInteractable FocusedInteractable => focusedInteractable;
         
         [Title("Debug")]
         [ShowInInspector, ReadOnly] public float Grip { get; private set; }
@@ -43,6 +98,9 @@ namespace FrameVR.Player.Hands
         [ShowInInspector, ReadOnly] public bool PrimaryPressed { get; private set; }
         [ShowInInspector, ReadOnly] public bool SecondaryPressed { get; private set; }
 
+        
+        
+        
         public bool TryHold(MonoBehaviour interactableBehaviour)
         {
             if (interactableBehaviour == null)
@@ -74,6 +132,21 @@ namespace FrameVR.Player.Hands
             heldInteractableBehaviour = null;
         }
         
+        public void SetFocusedInteractable(MonoBehaviour behaviour)
+        {
+            focusedInteractableBehaviour = behaviour;
+            focusedInteractable = behaviour as IHandInteractable;
+        }
+
+        public void ClearFocusedInteractable(MonoBehaviour behaviour)
+        {
+            if (focusedInteractableBehaviour != behaviour)
+                return;
+
+            focusedInteractableBehaviour = null;
+            focusedInteractable = null;
+        }
+        
         private void Awake()
         {
             inputSource = inputSourceBehaviour as IHandInputSource;
@@ -82,6 +155,9 @@ namespace FrameVR.Player.Hands
             {
                 Debug.LogError($"{inputSourceBehaviour.name} does not implement IHandInputSource.");
             }
+            
+            lastPosition = transform.position;
+            lastRotation = transform.rotation;
         }
 
         private void Update()
@@ -89,10 +165,43 @@ namespace FrameVR.Player.Hands
             if (inputSource == null)
                 return;
 
+            UpdateVelocity();
+            
             Grip = inputSource.Grip;
             Trigger = inputSource.Trigger;
             PrimaryPressed = inputSource.PrimaryPressed;
             SecondaryPressed = inputSource.SecondaryPressed;
+        }
+        
+        private void UpdateVelocity()
+        {
+            float deltaTime = Time.deltaTime;
+            if (deltaTime <= 0f)
+                return;
+
+            Vector3 frameVelocity = (transform.position - lastPosition) / deltaTime;
+
+            velocitySamples.Enqueue(frameVelocity);
+
+            while (velocitySamples.Count > VelocitySampleFrames)
+                velocitySamples.Dequeue();
+
+            velocity = GetAverageVelocity();
+
+            lastPosition = transform.position;
+        }
+
+        private Vector3 GetAverageVelocity()
+        {
+            if (velocitySamples.Count == 0)
+                return Vector3.zero;
+
+            Vector3 total = Vector3.zero;
+
+            foreach (Vector3 sample in velocitySamples)
+                total += sample;
+
+            return total / velocitySamples.Count;
         }
     }
 }

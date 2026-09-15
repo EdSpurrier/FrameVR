@@ -1,11 +1,23 @@
 using FrameVR.Player.Hands;
+using HighlightPlus;
 
 namespace FrameVR.Player.Interaction
 {
     public interface IHandInteractable
     {
+        bool CanBeInteractedWith { get; }
         bool CanBeHeld { get; }
 
+        HighlightEffect HighlightEffect { get; }
+
+        void OnHoverStart(PlayerHand hand)
+        {
+            if (HighlightEffect && (CanBeHeld || CanBeInteractedWith)) HighlightEffect.highlighted = true;
+        }
+        void OnHoverEnd(PlayerHand hand){
+            if (HighlightEffect && (CanBeHeld || CanBeInteractedWith)) HighlightEffect.highlighted = false;
+        }
+        
         void OnHeld(PlayerHand hand);
         void OnReleased(PlayerHand hand);
 

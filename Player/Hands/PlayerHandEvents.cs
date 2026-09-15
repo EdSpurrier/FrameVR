@@ -8,7 +8,7 @@ namespace FrameVR.Player.Hands
     {
         [Title("Reference")]
         [SerializeField] private PlayerHand hand;
-
+        
         [Title("Grip")]
         public FrameCoreEvent onGripStart = new FrameCoreEvent { eventName = "Grip Start" };
         public FrameCoreEvent onGripEnd = new FrameCoreEvent { eventName = "Grip End" };
@@ -70,7 +70,10 @@ namespace FrameVR.Player.Hands
                     else
                     {
                         onGripEnd.Activate();
-                        hand.HeldInteractable?.OnGripEnd(hand);    
+                        hand.HeldInteractable?.OnGripEnd(hand);
+
+                        if (hand.ReleaseOnGripEnd && hand.TryGetComponent(out PlayerHandPickup pickup))
+                            pickup.Release();
                     }
                 }
             }
@@ -80,7 +83,13 @@ namespace FrameVR.Player.Hands
                     onGripStart.Activate();
 
                 if (was && !now)
+                {
                     onGripEnd.Activate();
+                    hand.HeldInteractable?.OnGripEnd(hand);
+
+                    if (hand.ReleaseOnGripEnd && hand.TryGetComponent(out PlayerHandPickup pickup))
+                        pickup.Release();
+                }
             }
 
             lastGrip = hand.Grip;
@@ -94,13 +103,13 @@ namespace FrameVR.Player.Hands
             if (!was && now)
             {
                 onTriggerPressed.Activate();
-                hand.HeldInteractable?.OnTriggerPressed(hand);
+                (hand.HeldInteractable ?? hand.FocusedInteractable)?.OnTriggerPressed(hand);
             }
 
             if (was && !now)
             {
                 onTriggerReleased.Activate();
-                hand.HeldInteractable?.OnTriggerReleased(hand);
+                (hand.HeldInteractable ?? hand.FocusedInteractable)?.OnTriggerReleased(hand);
             }
 
             lastTrigger = hand.Trigger;
