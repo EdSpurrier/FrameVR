@@ -63,10 +63,12 @@ namespace FrameVR.Player.Hands
             if (currentTarget && currentTarget != target)
             {
                 (currentTarget as IHandInteractable).OnHoverEnd(hand);
+                hand.ClearFocusedInteractable(currentTarget);
             }
             if (target && currentTarget != target)
             {
                 (target as IHandInteractable).OnHoverStart(hand);
+                hand.SetFocusedInteractable(target);
             }
             
             currentTarget = target;
@@ -235,7 +237,8 @@ namespace FrameVR.Player.Hands
 
             foreach (MonoBehaviour behaviour in behaviours)
             {
-                if (behaviour is IHandInteractable interactable && interactable.CanBeHeld)
+                if (behaviour is IHandInteractable interactable &&
+                    (interactable.CanBeHeld || interactable.CanBeInteractedWith))
                     return behaviour;
             }
 

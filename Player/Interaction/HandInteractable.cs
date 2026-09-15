@@ -11,6 +11,8 @@ namespace FrameVR.Player.Interaction
         [FoldoutGroup("Settings")]
         [SerializeField] private bool canBeHeld = true;
         [FoldoutGroup("Settings")]
+        public bool CanBeInteractedWith => false;
+        [FoldoutGroup("Settings")]
         [SerializeField] private HighlightEffect highlightEffect;
         
         [BoxGroup("Settings/Throw")]

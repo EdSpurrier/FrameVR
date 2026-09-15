@@ -85,12 +85,22 @@ namespace FrameVR.Player.Hands
         public float FarPickupCapsuleRadius =>
             settings != null ? settings.farPickupCapsuleRadius : 0.08f;
         
+        [Title("Focused Object")]
+        [SerializeField, ReadOnly] private MonoBehaviour focusedInteractableBehaviour;
+
+        private IHandInteractable focusedInteractable;
+
+        public IHandInteractable FocusedInteractable => focusedInteractable;
+        
         [Title("Debug")]
         [ShowInInspector, ReadOnly] public float Grip { get; private set; }
         [ShowInInspector, ReadOnly] public float Trigger { get; private set; }
         [ShowInInspector, ReadOnly] public bool PrimaryPressed { get; private set; }
         [ShowInInspector, ReadOnly] public bool SecondaryPressed { get; private set; }
 
+        
+        
+        
         public bool TryHold(MonoBehaviour interactableBehaviour)
         {
             if (interactableBehaviour == null)
@@ -120,6 +130,21 @@ namespace FrameVR.Player.Hands
 
             heldInteractable = null;
             heldInteractableBehaviour = null;
+        }
+        
+        public void SetFocusedInteractable(MonoBehaviour behaviour)
+        {
+            focusedInteractableBehaviour = behaviour;
+            focusedInteractable = behaviour as IHandInteractable;
+        }
+
+        public void ClearFocusedInteractable(MonoBehaviour behaviour)
+        {
+            if (focusedInteractableBehaviour != behaviour)
+                return;
+
+            focusedInteractableBehaviour = null;
+            focusedInteractable = null;
         }
         
         private void Awake()

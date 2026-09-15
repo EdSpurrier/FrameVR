@@ -103,13 +103,13 @@ namespace FrameVR.Player.Hands
             if (!was && now)
             {
                 onTriggerPressed.Activate();
-                hand.HeldInteractable?.OnTriggerPressed(hand);
+                (hand.HeldInteractable ?? hand.FocusedInteractable)?.OnTriggerPressed(hand);
             }
 
             if (was && !now)
             {
                 onTriggerReleased.Activate();
-                hand.HeldInteractable?.OnTriggerReleased(hand);
+                (hand.HeldInteractable ?? hand.FocusedInteractable)?.OnTriggerReleased(hand);
             }
 
             lastTrigger = hand.Trigger;
